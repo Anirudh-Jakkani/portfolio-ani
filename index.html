@@ -322,9 +322,9 @@ footer a:hover { color: var(--accent); }
           <a class="btn primary" href="#work">View my work
             <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
-          <a class="btn" href="https://github.com/Anirudh-Jakkani" target="_blank" rel="noopener">
-            <svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
-            GitHub
+          <a class="btn" href="#contact">
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 4h12v8H2zM2 4l6 5 6-5" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+            Contact me
           </a>
         </div>
       </div>
@@ -432,34 +432,6 @@ correct <span class="ok">86%</span>  faithful <span class="ok">100%</span>  refu
           </aside>
         </article>
 
-        <!-- Gym CRM -->
-        <article class="proj">
-          <div class="proj-main">
-            <div class="proj-top"><span class="idx">gym-crm</span><span class="status live">Live</span></div>
-            <h3>Gym CRM</h3>
-            <p class="tagline">One app to run a gym, with AI training plans built in.</p>
-            <p class="desc">A multi-gym SaaS app for owners, managers, trainers and front-desk staff. It handles members and custom plans, renewal reminders, weekly check-ups with progress photos, leads, payments and analytics. Trainers generate a 4-week workout and diet plan with Claude, review it, and share it with the member through a private link.</p>
-            <ul class="points">
-              <li>AI plans use the member's goal, diet and medical notes as constraints, and never send their name or contact details</li>
-              <li>Drag-and-drop leads pipeline, receipts, dues tracking, and CSV/Excel import that understands messy real-world data</li>
-              <li>Each gym's data is fully isolated (with tests to prove it), plus role-based access, an activity log and Sentry monitoring</li>
-            </ul>
-            <ul class="chips">
-              <li>Next.js 15</li><li>TypeScript</li><li>Tailwind</li><li>FastAPI</li><li>PostgreSQL</li><li>Celery + Redis</li><li>Claude API</li><li>Docker</li>
-            </ul>
-            <div class="links">
-              <a class="btn primary sm" href="https://gym-crm-web.onrender.com/" target="_blank" rel="noopener">Live demo ↗</a>
-
-            </div>
-          </div>
-          <aside class="spec" aria-label="Gym CRM at a glance">
-            <h4>At a glance</h4>
-            <div class="metric"><b>10</b><span>build phases shipped, from sign-up to launch readiness</span></div>
-            <div class="metric"><b>4</b><span>staff roles: owner, manager, trainer, front desk</span></div>
-            <div class="metric"><b>4-week</b><span>AI workout + diet plans, reviewed by a trainer before members see them</span></div>
-          </aside>
-        </article>
-
         <!-- ChurnRadar -->
         <article class="proj">
           <div class="proj-main">
@@ -485,6 +457,34 @@ correct <span class="ok">86%</span>  faithful <span class="ok">100%</span>  refu
             <div class="metric"><b>0.846</b><span>ROC-AUC</span><div class="bar"><i style="width:84.6%"></i></div></div>
             <div class="metric"><b>72.7%</b><span>of churners caught (recall)</span><div class="bar"><i style="width:72.7%"></i></div></div>
             <div class="metric"><b>0.640</b><span>F1 score</span><div class="bar"><i style="width:64%"></i></div></div>
+          </aside>
+        </article>
+
+        <!-- Gym CRM -->
+        <article class="proj">
+          <div class="proj-main">
+            <div class="proj-top"><span class="idx">gym-crm</span><span class="status live">Live</span></div>
+            <h3>Gym CRM</h3>
+            <p class="tagline">One app to run a gym, with AI training plans built in.</p>
+            <p class="desc">A multi-gym SaaS app for owners, managers, trainers and front-desk staff. It handles members and custom plans, renewal reminders, weekly check-ups with progress photos, leads, payments and analytics. Trainers generate a 4-week workout and diet plan with Claude, review it, and share it with the member through a private link.</p>
+            <ul class="points">
+              <li>AI plans use the member's goal, diet and medical notes as constraints, and never send their name or contact details</li>
+              <li>Drag-and-drop leads pipeline, receipts, dues tracking, and CSV/Excel import that understands messy real-world data</li>
+              <li>Each gym's data is fully isolated (with tests to prove it), plus role-based access, an activity log and Sentry monitoring</li>
+            </ul>
+            <ul class="chips">
+              <li>Next.js 15</li><li>TypeScript</li><li>Tailwind</li><li>FastAPI</li><li>PostgreSQL</li><li>Celery + Redis</li><li>Claude API</li><li>Docker</li>
+            </ul>
+            <div class="links">
+              <a class="btn primary sm" href="https://gym-crm-web.onrender.com/" target="_blank" rel="noopener">Live demo ↗</a>
+
+            </div>
+          </div>
+          <aside class="spec" aria-label="Gym CRM at a glance">
+            <h4>At a glance</h4>
+            <div class="metric"><b>10</b><span>build phases shipped, from sign-up to launch readiness</span></div>
+            <div class="metric"><b>4</b><span>staff roles: owner, manager, trainer, front desk</span></div>
+            <div class="metric"><b>4-week</b><span>AI workout + diet plans, reviewed by a trainer before members see them</span></div>
           </aside>
         </article>
 
@@ -609,10 +609,6 @@ correct <span class="ok">86%</span>  faithful <span class="ok">100%</span>  refu
           <div class="row">
             <div><span class="lbl">phone</span><a class="val" href="tel:+917276667004">+91 72766 67004</a></div>
             <button class="copy" type="button" id="copy-phone" data-copy="+917276667004">Copy</button>
-          </div>
-          <div class="row">
-            <div><span class="lbl">github</span><a class="val" href="https://github.com/Anirudh-Jakkani" target="_blank" rel="noopener">github.com/Anirudh-Jakkani</a></div>
-            <a class="copy" href="https://github.com/Anirudh-Jakkani" target="_blank" rel="noopener" style="text-decoration:none">Open ↗</a>
           </div>
         </div>
       </div>
